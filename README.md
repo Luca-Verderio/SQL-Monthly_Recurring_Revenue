@@ -1,6 +1,4 @@
-# Steady - SQL Exercise
-This repository has been created as part of the application for the “Freelance Data Analyst (m/f/x)” position at Steady. [Link to the job posting](https://steady.factorialhr.com/job_posting/freelance-data-analyst-m-f-x-22505)  
-
+# SQL-Monthly_Recurring_Revenue
 The exercise is the following:  
 “Imagine you’re working in a database with two tables, "subscriptions" and "creators". You can calculate the monthly recurring revenue (MRR) for a specific creator by simply summarising the "monthly_amount" field of all active subscriptions, according to their "active_from" and "expires_at" dates, with currently active subscriptions having "expires_at" be empty or in the future. Please write two SQL queries: Find out the current MRR for a specific "creator_id", as well as historical end-of-month MRR data for the last 12 months, including the current running month. If you’re not sure, feel free to outline your approach in written form! This is not a coding exercise and there are no bonus points for making it complicated – we’re just interested in finding out how you work.”
 
